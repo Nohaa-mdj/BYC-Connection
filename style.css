@@ -1,0 +1,263 @@
+/* === GLOBAL === */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #1b1b1b;
+  background-color: #f5f0e6;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5em;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* === HEADER === */
+header {
+  background-color: #323131;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  font-size: 0.95em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ebae4b;
+}
+
+/* === HERO === */
+
+.hero-banner {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-banner img {
+  width: 100vw;
+  height: 400px;
+  object-position: center;
+  align-items: center;
+  position: absolute;
+}
+
+.hero {
+  text-align: center;
+  background: #f5f0e6;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background-color: #3e3d3d;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background-color: #1e2f45;
+}
+
+.intro-avantages {
+  font-size: 18px;
+  color: #333;
+  max-width: 95%;
+  margin: 0 3%;
+  text-align: start;
+  line-height: 1.6;
+  margin-top: 8%;
+  flex-wrap: nowrap;
+}
+
+/* === FEATURES === */
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.advantage-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  max-width: 320px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.advantage-card:hover {
+  transform: translateY(-5px);
+}
+
+.advantage-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #2f2f2f;
+}
+
+.advantage-card ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.advantage-card li {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* === VEHICULES === 
+.vehicules h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 280px;
+  text-align: center;
+}   */
+
+/* === APP SECTION === */
+.app-section {
+  background: #3e3d3d;
+  color: white;
+  border-radius: 20px;
+  padding: 60px 40px;
+}
+
+.app-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.app-section li {
+  background: #4a4a4b;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 0.9em;
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.stores img {
+  height: 40px;
+}
+
+/* === CONTACT === */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95em;
+}
+
+.contact button {
+  background: #0d1b2a;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact button:hover {
+  background: #1e2f45;
+}
+
+/* === FOOTER === */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.85em;
+  color: #777;
+}
