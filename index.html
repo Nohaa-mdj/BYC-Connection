@@ -6,21 +6,7 @@
     <title>BYC Entreprise</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    });
 
-    document
-      .querySelectorAll("[data-animate]")
-      .forEach((el) => observer.observe(el));
-  </script>
-  <body>
     <!-- HEADER -->
     <header>
       <nav>
@@ -82,7 +68,7 @@
     </div>
 
     <!-- AVANTAGES -->
-    <section id="avantages" class="features" data-animate>
+    <section id="avantages" class="features">
       <div class="cards-container">
         <div class="advantage-card">
           <h3>✅ Vous restez indépendant</h3>
