@@ -119,6 +119,7 @@ nav a:hover {
 .features {
   padding: 60px 20px;
   text-align: center;
+  z-index: 10;
 }
 
 .cards-container {
