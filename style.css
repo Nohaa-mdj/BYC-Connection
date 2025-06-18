@@ -452,3 +452,11 @@ footer {
   margin-top: 50px;
   text-align: center;
 }
+
+.paiement img {
+  width: 50%;
+}
+
+.paiement {
+  text-align: center;
+}
