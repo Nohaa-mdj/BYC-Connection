@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BYC Entreprise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html#intro-avantages">Avantages</a></li>
+        <li><a href="detailspage.html">Détails</a></li>
+        <li><a href="histoire.html">A propos de nous</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</html>
+
+<section id="contact" class="contact">
+  <h2>Prêt à nous rejoindre ?</h2>
+  <div class="contact-tel">
+  <p>Vous pouvez nous joindre par téléphone au : 
+    <br/> <b>+41 7 62 17 24 06 </b>  ou au <b> +41 7 62 44 13 17 </b>
+  </p>
+  <p> Ou par mail en remplissant le formulaire ci-dessous :
+    <br/>
+  </p>
+</div>
+  <form
+    action="https://formsubmit.co/yassine.djiridi@gmail.com"
+    method="POST"
+    class="form-rdv"
+  >
+    <input type="text" name="nom" placeholder="Nom Prénom" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="tel" name="telephone" placeholder="Téléphone" required />
+    <textarea name="message" placeholder="Message" required></textarea>
+
+    <!-- Anti-spam invisible -->
+    <input type="text" name="_honey" style="display: none" />
+
+    <!-- Désactive le captcha -->
+    <input type="hidden" name="_captcha" value="false" />
+
+    <!-- Redirection personnalisée après envoi -->
+    <input
+      type="hidden"
+      name="_next"
+      value="https://nohaa-mdj.github.io/BYC-Connection/merci.html"
+    />
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 BYC Connection - Tous droits réservés.</p>
+</footer>
+</body>
+</html>

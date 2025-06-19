@@ -460,3 +460,9 @@ footer {
 .paiement {
   text-align: center;
 }
+
+.contact-tel {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
